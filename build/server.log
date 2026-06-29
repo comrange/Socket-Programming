@@ -1,0 +1,58 @@
+2026-06-29 22:45:22 [SERVER] bind=127.0.0.1 port=18080 root=C:\Users\admin\Documents\Socket\SocketDemo\build\www
+2026-06-29 22:45:22 [SERVER] ready=true stop=Ctrl+C
+2026-06-29 22:45:22 [CONNECT] id=1 client=127.0.0.1:62053 active=1
+2026-06-29 22:45:22 [REQUEST] id=1 client=127.0.0.1:62053 method=GET path=/index.html status=200 bytes=2246 duration_ms=1 active=1
+2026-06-29 22:45:22 [DISCONNECT] id=1 client=127.0.0.1:62053 active=0
+2026-06-29 22:45:22 [CONNECT] id=2 client=127.0.0.1:62054 active=1
+2026-06-29 22:45:22 [REQUEST] id=2 client=127.0.0.1:62054 method=GET path=/hello.txt status=200 bytes=74 duration_ms=0 active=1
+2026-06-29 22:45:22 [DISCONNECT] id=2 client=127.0.0.1:62054 active=0
+2026-06-29 22:45:22 [CONNECT] id=3 client=127.0.0.1:62055 active=1
+2026-06-29 22:45:22 [REQUEST] id=3 client=127.0.0.1:62055 method=GET path=/missing.txt status=404 bytes=14 duration_ms=0 active=1
+2026-06-29 22:45:22 [DISCONNECT] id=3 client=127.0.0.1:62055 active=0
+2026-06-29 22:45:22 [CONNECT] id=4 client=127.0.0.1:62056 active=1
+2026-06-29 22:45:22 [REQUEST] id=4 client=127.0.0.1:62056 method=- path=- status=400 bytes=16 duration_ms=13 active=1 detail=malformed_request
+2026-06-29 22:45:22 [DISCONNECT] id=4 client=127.0.0.1:62056 active=0
+2026-06-29 22:45:22 [CONNECT] id=5 client=127.0.0.1:62057 active=1
+2026-06-29 22:45:22 [REQUEST] id=5 client=127.0.0.1:62057 method=POST path=/index.html status=405 bytes=23 duration_ms=0 active=1
+2026-06-29 22:45:22 [DISCONNECT] id=5 client=127.0.0.1:62057 active=0
+2026-06-29 22:45:22 [CONNECT] id=6 client=127.0.0.1:62058 active=1
+2026-06-29 22:45:22 [REQUEST] id=6 client=127.0.0.1:62058 method=GET path=/../secret.txt status=400 bytes=16 duration_ms=0 active=1 detail=unsafe_path
+2026-06-29 22:45:22 [DISCONNECT] id=6 client=127.0.0.1:62058 active=0
+2026-06-29 22:45:22 [CONNECT] id=7 client=127.0.0.1:62059 active=1
+2026-06-29 22:45:22 [REQUEST] id=7 client=127.0.0.1:62059 method=- path=- status=400 bytes=16 duration_ms=0 active=1 detail=incomplete_or_oversized_header
+2026-06-29 22:45:22 [DISCONNECT] id=7 client=127.0.0.1:62059 active=0
+2026-06-29 22:45:22 [CONNECT] id=8 client=127.0.0.1:62060 active=1
+2026-06-29 22:45:22 [CONNECT] id=9 client=127.0.0.1:62061 active=2
+2026-06-29 22:45:22 [CONNECT] id=10 client=127.0.0.1:62062 active=3
+2026-06-29 22:45:22 [CONNECT] id=11 client=127.0.0.1:62063 active=4
+2026-06-29 22:45:22 [CONNECT] id=12 client=127.0.0.1:62064 active=5
+2026-06-29 22:45:22 [CONNECT] id=13 client=127.0.0.1:62065 active=6
+2026-06-29 22:45:22 [CONNECT] id=14 client=127.0.0.1:62066 active=7
+2026-06-29 22:45:22 [CONNECT] id=15 client=127.0.0.1:62067 active=8
+2026-06-29 22:45:22 [CONNECT] id=16 client=127.0.0.1:62068 active=9
+2026-06-29 22:45:22 [CONNECT] id=17 client=127.0.0.1:62069 active=10
+2026-06-29 22:45:22 [REQUEST] id=8 client=127.0.0.1:62060 method=GET path=/hello.txt status=200 bytes=74 duration_ms=127 active=10
+2026-06-29 22:45:22 [REQUEST] id=10 client=127.0.0.1:62062 method=GET path=/hello.txt status=200 bytes=74 duration_ms=123 active=10
+2026-06-29 22:45:22 [REQUEST] id=9 client=127.0.0.1:62061 method=GET path=/hello.txt status=200 bytes=74 duration_ms=124 active=10
+2026-06-29 22:45:22 [REQUEST] id=12 client=127.0.0.1:62064 method=GET path=/hello.txt status=200 bytes=74 duration_ms=123 active=10
+2026-06-29 22:45:22 [REQUEST] id=11 client=127.0.0.1:62063 method=GET path=/hello.txt status=200 bytes=74 duration_ms=123 active=10
+2026-06-29 22:45:22 [REQUEST] id=13 client=127.0.0.1:62065 method=GET path=/hello.txt status=200 bytes=74 duration_ms=122 active=10
+2026-06-29 22:45:22 [REQUEST] id=14 client=127.0.0.1:62066 method=GET path=/hello.txt status=200 bytes=74 duration_ms=122 active=10
+2026-06-29 22:45:22 [REQUEST] id=15 client=127.0.0.1:62067 method=GET path=/hello.txt status=200 bytes=74 duration_ms=122 active=10
+2026-06-29 22:45:22 [REQUEST] id=16 client=127.0.0.1:62068 method=GET path=/hello.txt status=200 bytes=74 duration_ms=122 active=10
+2026-06-29 22:45:22 [DISCONNECT] id=8 client=127.0.0.1:62060 active=9
+2026-06-29 22:45:22 [REQUEST] id=17 client=127.0.0.1:62069 method=GET path=/hello.txt status=200 bytes=74 duration_ms=121 active=9
+2026-06-29 22:45:22 [DISCONNECT] id=10 client=127.0.0.1:62062 active=8
+2026-06-29 22:45:22 [DISCONNECT] id=9 client=127.0.0.1:62061 active=7
+2026-06-29 22:45:22 [DISCONNECT] id=12 client=127.0.0.1:62064 active=6
+2026-06-29 22:45:22 [DISCONNECT] id=11 client=127.0.0.1:62063 active=5
+2026-06-29 22:45:22 [DISCONNECT] id=13 client=127.0.0.1:62065 active=4
+2026-06-29 22:45:22 [DISCONNECT] id=14 client=127.0.0.1:62066 active=3
+2026-06-29 22:45:22 [DISCONNECT] id=15 client=127.0.0.1:62067 active=2
+2026-06-29 22:45:22 [DISCONNECT] id=16 client=127.0.0.1:62068 active=1
+2026-06-29 22:45:22 [DISCONNECT] id=17 client=127.0.0.1:62069 active=0
+2026-06-29 22:45:23 [SERVER] bind=127.0.0.1 port=18080 root=C:\Users\admin\Documents\Socket\SocketDemo\build\www
+2026-06-29 22:45:23 [SERVER] ready=true stop=Ctrl+C
+2026-06-29 22:45:23 [CONNECT] id=1 client=127.0.0.1:62070 active=1
+2026-06-29 22:45:23 [REQUEST] id=1 client=127.0.0.1:62070 method=GET path=/hello.txt status=200 bytes=74 duration_ms=0 active=1
+2026-06-29 22:45:23 [DISCONNECT] id=1 client=127.0.0.1:62070 active=0

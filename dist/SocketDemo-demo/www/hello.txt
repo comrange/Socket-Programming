@@ -1,0 +1,2 @@
+Hello from SocketDemo!
+This file was served by a C++ Winsock HTTP server.

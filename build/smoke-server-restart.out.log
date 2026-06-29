@@ -1,0 +1,5 @@
+2026-06-29 22:45:23 [SERVER] bind=127.0.0.1 port=18080 root=C:\Users\admin\Documents\Socket\SocketDemo\build\www
+2026-06-29 22:45:23 [SERVER] ready=true stop=Ctrl+C
+2026-06-29 22:45:23 [CONNECT] id=1 client=127.0.0.1:62070 active=1
+2026-06-29 22:45:23 [REQUEST] id=1 client=127.0.0.1:62070 method=GET path=/hello.txt status=200 bytes=74 duration_ms=0 active=1
+2026-06-29 22:45:23 [DISCONNECT] id=1 client=127.0.0.1:62070 active=0

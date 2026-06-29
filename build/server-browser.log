@@ -1,0 +1,9 @@
+[SERVER] Listening on http://127.0.0.1:8080
+[SERVER] Document root: "C:\\Users\\admin\\Documents\\Socket\\SocketDemo\\build\\www"
+[SERVER] Press Ctrl+C to stop.
+[CLIENT] 127.0.0.1:60985
+[REQUEST] GET /index.html HTTP/1.1
+[RESPONSE] 200 OK (2246 bytes)
+[CLIENT] 127.0.0.1:58932
+[REQUEST] GET /favicon.ico HTTP/1.1
+[RESPONSE] 404 Not Found

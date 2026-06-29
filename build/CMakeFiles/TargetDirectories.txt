@@ -1,0 +1,5 @@
+C:/Users/admin/Documents/Socket/SocketDemo/build/CMakeFiles/socket_common.dir
+C:/Users/admin/Documents/Socket/SocketDemo/build/CMakeFiles/socket_server.dir
+C:/Users/admin/Documents/Socket/SocketDemo/build/CMakeFiles/socket_client.dir
+C:/Users/admin/Documents/Socket/SocketDemo/build/CMakeFiles/edit_cache.dir
+C:/Users/admin/Documents/Socket/SocketDemo/build/CMakeFiles/rebuild_cache.dir

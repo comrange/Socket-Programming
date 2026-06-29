@@ -1,0 +1,18 @@
+# ninja log v7
+34	3730	8044430439153460	CMakeFiles/socket_common.dir/src/common/http.cpp.obj	53393bef73e0958d
+39	4988	8044430439205044	CMakeFiles/socket_common.dir/src/common/socket_support.cpp.obj	89007772334e0386
+52	5069	8044430439330909	CMakeFiles/socket_client.dir/src/client/main.cpp.obj	49da14b0a6c4b642
+4990	5453	8044430488718822	libsocket_common.a	c2f3a9205adc3792
+46	5535	8044430439283120	CMakeFiles/socket_server.dir/src/server/main.cpp.obj	5e54e71ac025f58a
+5454	5771	8044430493354230	socket_client.exe	529dce547c4ae7cc
+5536	5787	8044430494175833	socket_server.exe	548d53369530b03e
+31	92	8044467126981008	clean	7cad43144eea5c8
+82	5463	8044467128673496	CMakeFiles/socket_common.dir/src/common/http.cpp.obj	53393bef73e0958d
+112	6900	8044467128975763	CMakeFiles/socket_common.dir/src/common/socket_support.cpp.obj	89007772334e0386
+144	7199	8044467129287990	CMakeFiles/socket_client.dir/src/client/main.cpp.obj	49da14b0a6c4b642
+6900	7991	8044467196857543	libsocket_common.a	c2f3a9205adc3792
+7991	8382	8044467207756071	socket_client.exe	529dce547c4ae7cc
+128	8529	8044467129137509	CMakeFiles/socket_server.dir/src/server/main.cpp.obj	5e54e71ac025f58a
+8529	9188	8044467213146956	socket_server.exe	4adac88502596ad
+26	2297	8044469230060965	CMakeFiles/socket_server.dir/src/server/main.cpp.obj	5e54e71ac025f58a
+2299	2659	8044469252787146	socket_server.exe	4adac88502596ad

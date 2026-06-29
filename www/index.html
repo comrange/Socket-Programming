@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Socket Demo</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17332d;
+      --paper: #f4edda;
+      --green: #14614f;
+      --orange: #ee7441;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(238, 116, 65, .28), transparent 24rem),
+        repeating-linear-gradient(135deg, rgba(20, 97, 79, .06) 0 1px, transparent 1px 18px),
+        var(--paper);
+    }
+    main {
+      width: min(760px, calc(100% - 2rem));
+      padding: clamp(2rem, 7vw, 5rem);
+      border: 2px solid var(--ink);
+      border-radius: 1.5rem 1.5rem 6rem 1.5rem;
+      background: rgba(255, 252, 242, .9);
+      box-shadow: 14px 14px 0 var(--green);
+    }
+    .eyebrow {
+      margin: 0 0 1rem;
+      color: var(--orange);
+      font: 700 .78rem/1.2 "Courier New", monospace;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 10ch;
+      margin: 0;
+      font-size: clamp(3rem, 10vw, 6.5rem);
+      font-weight: 500;
+      line-height: .86;
+      letter-spacing: -.055em;
+    }
+    p { max-width: 54ch; margin: 2rem 0 0; font-size: 1.12rem; line-height: 1.65; }
+    code { padding: .12rem .36rem; color: white; background: var(--green); border-radius: .25rem; }
+    .status { display: flex; align-items: center; gap: .65rem; margin-top: 2rem; font: 700 .85rem "Courier New", monospace; }
+    .dot { width: .8rem; height: .8rem; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 .35rem rgba(238, 116, 65, .2); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">C++ / Winsock2 / HTTP 1.1</p>
+    <h1>The socket is live.</h1>
+    <p>This page was read from disk by our C++ server, wrapped in an HTTP response, and delivered over a TCP socket.</p>
+    <p>Try the text endpoint at <code>/hello.txt</code>.</p>
+    <div class="status"><span class="dot"></span>200 OK - DEMO READY</div>
+  </main>
+</body>
+</html>
